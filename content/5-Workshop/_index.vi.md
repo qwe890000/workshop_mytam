@@ -19,10 +19,16 @@ Trong bài lab này, chúng em đã thực hiện:
 
 1. [Tổng quan Workshop](5.1-overview/)
 2. [Chuẩn bị (Prerequisites)](5.2-prerequisites/)
-3. [Triển khai Backend (Lambda & API Gateway)](5.3-backend-lambda/)
-4. [Tự động sinh báo cáo PDF](5.4-create-pdf-report/)
-5. [Hosting Frontend (S3 & CloudFront)](5.5-hosting-frontend/)
-6. [Dọn dẹp tài nguyên (Clean up)](5.6-cleanup/)
+3. [Backend Lambda](5.3-backend-lambda/)
+   - [Tạo Lambda Function](5.3.1-create-lambda-function/)
+   - [Cấu hình API Gateway](5.3.2-configure-api-gateway/)
+4. [Tạo báo cáo PDF](5.4-create-pdf-report/)
+   - [Tạo Lambda PDF Generator](5.4.1-create-lambda-pdf-generator/)
+5. [Hosting Frontend](5.5-hosting-frontend/)
+   - [Deploy Frontend lên S3](5.5.1-deploy-frontend-to-s3/)
+   - [CloudFront CDN](5.5.2-cloudfront-cdn/)
+6. [Dọn dẹp](5.6-cleanup/)
+   - [Dọn dẹp tài nguyên](5.6.1-clean-up-resources/)
 
 #### Sơ đồ kiến trúc
 
