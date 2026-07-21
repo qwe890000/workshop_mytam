@@ -106,4 +106,4 @@ Tham gia sự kiện "Meeting 30/5" là một trải nghiệm rất bổ ích, g
 
 ## Hình ảnh minh chứng
 
-![Meeting 30/5 - Minh chứng](/workshop_mytam/images/event2-meeting-30-5-new.jpg)
+![Meeting 30/5 - Minh chứng](/workshop_mytam/images/event2-meeting-30-5-v2.jpg)
