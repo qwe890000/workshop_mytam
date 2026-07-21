@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch Event 1: FCAJ Community Day – Kết nối, Chia sẻ & Thực chiến Công nghệ
-
 ### Thông tin sự kiện
 
 | | |

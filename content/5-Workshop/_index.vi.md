@@ -6,8 +6,6 @@ chapter: false
 pre: " 5. "
 ---
 
-# Triển khai LunaGenZ (Thần Số Học) trên AWS Serverless
-
 #### Tổng quan
 
 **LunaGenZ** là một dự án Thần Số Học được xây dựng hoàn toàn trên kiến trúc AWS Serverless. Workshop này sẽ hướng dẫn toàn bộ quy trình triển khai logic Backend, tự động hóa việc tạo báo cáo PDF nội bộ, và host ứng dụng Frontend.

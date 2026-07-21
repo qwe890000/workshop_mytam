@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.2. </b> "
 ---
 
-# Điều kiện tiên quyết
-
 ## Các yêu cầu trước khi bắt đầu
 
 Để hoàn thành tốt workshop này, vui lòng đảm bảo bạn đã chuẩn bị sẵn các công cụ và tài khoản cần thiết.

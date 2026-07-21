@@ -5,11 +5,9 @@ weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
-
 ### Student Information:
-&emsp; **Full Name:** Tran My Tam
+&emsp; **Full Name:** Trần Mỹ Tám
 
 &emsp; **Phone Number:** 0393262661
 
@@ -28,6 +26,8 @@ chapter: false
 &emsp; **Internship Duration:** From 18/04/2026 to 12/07/2026
 
 ![Your profile picture](/images/avatar.png)
+
+
 
 ### Report Content
 

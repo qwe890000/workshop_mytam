@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.5.1. </b> "
 ---
 
-# Triển khai Frontend lên S3
-
 ## Giới thiệu
 
 Phần này hướng dẫn bạn triển khai giao diện Frontend trên Amazon S3.

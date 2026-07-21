@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# FCAJ Meetup 2026 – Hành trình từ Sinh viên đến Chuyên gia Cloud, DevOps & Data
-
 ---
 
 ### Thông tin sự kiện

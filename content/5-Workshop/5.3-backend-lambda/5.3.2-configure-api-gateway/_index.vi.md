@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.3.2. </b> "
 ---
 
-# Cấu hình API Gateway
-
 ## Giới thiệu
 
 API Gateway là điểm vào (entry point) cho Backend, cho phép Frontend gọi Lambda functions thông qua HTTP requests. Trong phần này, bạn sẽ tạo REST API với CORS support.

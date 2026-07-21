@@ -5,7 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-# LunaGenZ - Serverless Numerology Web Application
+## LunaGenZ - Serverless Numerology Web Application
 ## Hệ thống Ứng dụng Thần Số Học tự động hoá trên nền tảng AWS Serverless
 
 ---

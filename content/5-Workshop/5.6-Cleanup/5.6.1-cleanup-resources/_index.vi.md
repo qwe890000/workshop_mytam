@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.6.1. </b> "
 ---
 
-# Dọn dẹp Resources
-
 ## Giới thiệu
 
 Để tránh phát sinh chi phí không mong muốn trên tài khoản AWS, việc xóa các resources đã tạo trong workshop này rất quan trọng.

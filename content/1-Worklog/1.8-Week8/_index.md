@@ -1,11 +1,10 @@
 ﻿---
-title: "Week 8 Worklog"
+title: "Worklog Week 8"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-
 ### Week 8 Objectives:
 
 * Database with Amazon RDS
@@ -14,14 +13,14 @@ pre: " <b> 1.8. </b> "
 * Amazon WorkSpaces, ElastiCache
 
 ### Tasks to be carried out this week:
-
 | Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2   | - Learn Amazon RDS: <br>&emsp; + Create RDS Instance <br>&emsp; + Connect database | 06/06/2026 | 06/06/2026 | <https://000005.awsstudygroup.com/> |
 | 3   | - Practice RDS: <br>&emsp; + Multi-AZ Deployment <br>&emsp; + Read Replica | 07/06/2026 | 07/06/2026 | <https://000005.awsstudygroup.com/> |
 | 4   | - Learn Amazon Lightsail: <br>&emsp; + Create Lightsail Instance <br>&emsp; + Manage containers | 08/06/2026 | 08/06/2026 | <https://000045.awsstudygroup.com/> <https://000046.awsstudygroup.com/> |
 | 5   | - Auto Scaling on EC2: <br>&emsp; + Create Launch Template <br>&emsp; + Auto Scaling Group | 09/06/2026 | 10/06/2026 | <https://000006.awsstudygroup.com/> |
 | 6   | - CloudWatch Monitoring: <br>&emsp; + Create Dashboard <br>&emsp; + Configure Alarms | 11/06/2026 | 12/06/2026 | <https://000008.awsstudygroup.com/> |
+
 
 ### Week 8 Achievements:
 

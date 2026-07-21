@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.3. </b> "
 ---
 
-# Backend Lambda
-
 ## Tổng quan
 
 Phần này hướng dẫn chúng em tạo Backend Serverless sử dụng AWS Lambda và API Gateway để xử lý logic tính toán thần số học.

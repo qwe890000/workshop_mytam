@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# Blog 2
-
 ## Cara tiên phong AI chuyên ngành cho môi giới bảo hiểm doanh nghiệp với AWS
 
 Bảo hiểm là một ngành công nghiệp toàn cầu trị giá 8 nghìn tỷ USD, nhưng hiện đang phải gánh chịu áp lực nặng nề bởi các quy trình thủ công lỗi thời và tình trạng thiếu hụt nhân tài ngày càng trầm trọng. Để giải quyết bài toán này, Cara đã tiên phong phát triển một giải pháp AI-native trên nền tảng AWS nhằm tự động hóa các quy trình back-office phức tạp dành riêng cho các công ty môi giới bảo hiểm doanh nghiệp.

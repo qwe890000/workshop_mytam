@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# Blog 1
-
 ## Tự động hóa triển khai Oracle Database@AWS bằng Terraform
 
 Việc triển khai các hệ thống cơ sở dữ liệu Oracle trên nền tảng đám mây luôn là bài toán đòi hỏi sự cân bằng giữa hiệu năng, khả năng mở rộng và tính nhất quán trong quản lý hạ tầng. Với Oracle Database@AWS (ODB@AWS), Oracle đã mang nền tảng Exadata – hệ thống phần cứng được tối ưu dành riêng cho Oracle Database – vào trực tiếp trung tâm dữ liệu của AWS, cho phép doanh nghiệp khai thác hiệu năng cao của Oracle đồng thời tận dụng hệ sinh thái dịch vụ phong phú của AWS.

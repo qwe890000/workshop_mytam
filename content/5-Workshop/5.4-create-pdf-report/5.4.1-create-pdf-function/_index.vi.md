@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.4.1. </b> "
 ---
 
-# Tạo Lambda PDF Generator
-
 ## Giới thiệu
 
 Lambda function này chịu trách nhiệm tạo báo cáo PDF từ kết quả tính toán thần số học.

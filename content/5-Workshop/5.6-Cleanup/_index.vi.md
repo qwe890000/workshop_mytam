@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.6. </b> "
 ---
 
-# Dọn dẹp
-
 ## Tổng quan
 
 Sau khi hoàn thành workshop, chúng em đã dọn dẹp các AWS resources đã tạo để tránh phát sinh chi phí.

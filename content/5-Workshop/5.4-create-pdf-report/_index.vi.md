@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.4. </b> "
 ---
 
-# Tạo báo cáo PDF
-
 ## Tổng quan
 
 Phần này hướng dẫn chúng em tạo Lambda function để tự động tạo báo cáo PDF từ kết quả tính toán thần số học.

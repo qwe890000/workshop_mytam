@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-# Blog 3
-
 ## Xây dựng hệ thống Thần Số Học (LunaGENZ) trên kiến trúc Serverless AWS kết hợp GenAI
 
 Chào mọi người, sau một thời gian tự học và cày thì team mình cũng bắt đầu làm đồ án cuối khóa: LunaGENZ – hệ thống dùng AI để luận giải Thần số học cá nhân hóa.

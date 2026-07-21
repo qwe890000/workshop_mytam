@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.5.2. </b> "
 ---
 
-# CloudFront CDN
-
 ## Giới thiệu
 
 CloudFront giúp phân phối nội dung toàn cầu với tốc độ cao và độ trễ thấp.

@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.1. </b> "
 ---
 
-# Tổng quan
-
 ## Giới thiệu về LunaGenZ
 
 LunaGenZ là một ứng dụng Thần Số Học sáng tạo, được thiết kế để tính toán và tạo ra các báo cáo thần số học cá nhân chi tiết. Để đảm bảo tính sẵn sàng cao, khả năng mở rộng và tối ưu chi phí, toàn bộ ứng dụng được xây dựng trên kiến trúc **Serverless của AWS**.

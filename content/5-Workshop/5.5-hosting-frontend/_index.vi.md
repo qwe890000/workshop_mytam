@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.5. </b> "
 ---
 
-# Triển khai Frontend
-
 ## Tổng quan
 
 Phần này hướng dẫn chúng em triển khai giao diện Frontend của ứng dụng LunaGenZ lên AWS.

@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.3.1. </b> "
 ---
 
-# Tạo Lambda Function
-
 ## Giới thiệu
 
 Lambda Calculation là hàm xử lý logic tính toán thần số học. Đây là trái tim của ứng dụng LunaGenZ, nơi thực hiện các phép tính phức tạp để đưa ra các con số ý nghĩa.

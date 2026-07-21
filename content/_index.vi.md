@@ -4,8 +4,6 @@ date: 2024-01-01
 weight: 1
 chapter: false
 ---
-
-# Báo cáo thực tập
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Trần Mỹ Tâm
 
