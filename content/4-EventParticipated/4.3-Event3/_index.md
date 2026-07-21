@@ -135,4 +135,4 @@ The meetup has ended but the lessons and inspiration will accompany me on the ro
 
 ## Evidence Photos
 
-![FCAJ Meetup 2026 - Evidence](images/event3-fcaj-meetup-2026.jpg)
+![FCAJ Meetup 2026 - Evidence](/workshop_mytam/images/event3-fcaj-meetup-2026.jpg)
