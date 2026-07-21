@@ -108,4 +108,4 @@ Attending the "Meeting 30/5" event was a very valuable experience, helping me ga
 
 ## Evidence Photos
 
-![Meeting 30/5 - Evidence](images/event2-meeting-30-5.jpg)
+![Meeting 30/5 - Evidence](/workshop_mytam/images/event2-meeting-30-5-new.jpg)
