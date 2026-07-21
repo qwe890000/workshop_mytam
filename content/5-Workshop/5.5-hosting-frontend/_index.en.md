@@ -5,11 +5,9 @@ chapter: true
 pre: " <b> 5.5. </b> "
 ---
 
-# Frontend Hosting
-
 ## Overview
 
-This section guides you through deploying the LunaGenZ Frontend application to AWS.
+This section guides us to deploy the LunaGenZ Frontend application to AWS.
 
 ## Contents
 

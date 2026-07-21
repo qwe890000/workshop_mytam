@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.3.2. </b> "
 ---
 
-# Configure API Gateway
-
 ## Introduction
 
 API Gateway is the entry point for the Backend, allowing Frontend to call Lambda functions through HTTP requests. In this section, you will create a REST API with CORS support.
@@ -133,7 +131,7 @@ Add API URL to the code:
 const API_CONFIG = {
     // Replace with your URL
     API_URL: 'https://abc123xyz.execute-api.ap-southeast-1.amazonaws.com/prod/calculate',
-    
+
     // Other settings
     TIMEOUT: 30000,
     RETRY_COUNT: 3
@@ -152,14 +150,14 @@ async function calculateNumerology(name, birthdate) {
                 birthdate: birthdate
             })
         });
-        
+
         if (!response.ok) {
             throw new Error('API request failed');
         }
-        
+
         const data = await response.json();
         return data;
-        
+
     } catch (error) {
         console.error('Error:', error);
         throw error;

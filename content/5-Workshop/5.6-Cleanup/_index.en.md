@@ -5,11 +5,9 @@ chapter: true
 pre: " <b> 5.6. </b> "
 ---
 
-# Cleanup
-
 ## Overview
 
-After completing the workshop, we cleaned up the AWS resources created to avoid incurring charges.
+After completing the workshop, we have cleaned up the AWS resources created to avoid incurring charges.
 
 ## Contents
 

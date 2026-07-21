@@ -5,11 +5,9 @@ chapter: true
 pre: " <b> 5.4. </b> "
 ---
 
-# Create PDF Report
-
 ## Overview
 
-This section guides you through creating a Lambda function to automatically generate PDF reports from numerology calculation results.
+This section guides us to create a Lambda function to automatically generate PDF reports from numerology calculation results.
 
 ## Contents
 

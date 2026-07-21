@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.4.1. </b> "
 ---
 
-# Create Lambda PDF Generator
-
 ## Introduction
 
 This Lambda function is responsible for generating PDF reports from numerology calculation results.
@@ -45,26 +43,26 @@ const BUCKET = 'lunagenz-reports-bucket';
 
 exports.handler = async (event) => {
     const { userId, calculationData } = JSON.parse(event.body);
-    
+
     // Render HTML template with data
     const html = generatePDFHTML(calculationData);
-    
+
     // Launch Chrome and create PDF
     const browser = await puppeteer.launch({
         executablePath: '/opt/chrome',
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
-    
+
     const page = await browser.newPage();
     await page.setContent(html);
-    
+
     const pdfBuffer = await page.pdf({
         format: 'A4',
         printBackground: true
     });
-    
+
     await browser.close();
-    
+
     // Upload to S3
     const key = `reports/${userId}/${Date.now()}.pdf`;
     await s3.send(new S3.PutObjectCommand({
@@ -73,7 +71,7 @@ exports.handler = async (event) => {
         Body: pdfBuffer,
         ContentType: 'application/pdf'
     }));
-    
+
     return {
         statusCode: 200,
         body: JSON.stringify({

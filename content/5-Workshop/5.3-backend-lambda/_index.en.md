@@ -5,11 +5,9 @@ chapter: true
 pre: " <b> 5.3. </b> "
 ---
 
-# Backend Lambda
-
 ## Overview
 
-This section guides you through creating a Serverless Backend using AWS Lambda and API Gateway to handle numerology calculation logic.
+This section guides us to create a Serverless Backend using AWS Lambda and API Gateway to handle numerology calculation logic.
 
 ## Contents
 

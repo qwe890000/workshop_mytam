@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.5.2. </b> "
 ---
 
-# CloudFront CDN
-
 ## Introduction
 
 CloudFront helps distribute content globally with high speed and low latency.

@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.3.1. </b> "
 ---
 
-# Create Lambda Function
-
 ## Introduction
 
 Lambda Calculation is the function that processes numerology calculation logic. This is the heart of LunaGenZ application, where complex calculations are performed to derive meaningful numbers.
@@ -83,7 +81,7 @@ exports.handler = async (event) => {
     try {
         // Parse request body
         const { name, birthdate } = JSON.parse(event.body);
-        
+
         // Validate input
         if (!name || !birthdate) {
             return {
@@ -93,14 +91,14 @@ exports.handler = async (event) => {
                 })
             };
         }
-        
+
         // Calculate numerology numbers
         const lifePathNumber = calculateLifePath(birthdate);
         const expressionNumber = calculateExpression(name);
         const soulUrgeNumber = calculateSoulUrge(name);
         const personalityNumber = calculatePersonality(name);
         const birthdayNumber = calculateBirthday(birthdate);
-        
+
         // Return results
         return {
             statusCode: 200,
@@ -120,7 +118,7 @@ exports.handler = async (event) => {
                 }
             })
         };
-        
+
     } catch (error) {
         return {
             statusCode: 500,
@@ -137,7 +135,7 @@ function digitSum(num, reduce = true) {
     let sum = String(num).split('').reduce((acc, digit) => {
         return acc + parseInt(digit, 10);
     }, 0);
-    
+
     if (reduce && sum > 9 && sum !== 11 && sum !== 22 && sum !== 33) {
         return digitSum(sum);
     }
@@ -159,11 +157,11 @@ function calculateExpression(name) {
         'J': 1, 'K': 2, 'L': 3, 'M': 4, 'N': 5, 'O': 6, 'P': 7, 'Q': 8, 'R': 9,
         'S': 1, 'T': 2, 'U': 3, 'V': 4, 'W': 5, 'X': 6, 'Y': 7, 'Z': 8
     };
-    
+
     const sum = name.toUpperCase().split('').reduce((acc, char) => {
         return acc + (letterValues[char] || 0);
     }, 0);
-    
+
     return digitSum(sum);
 }
 
@@ -173,14 +171,14 @@ function calculateSoulUrge(name) {
     const letterValues = {
         'A': 1, 'E': 5, 'I': 9, 'O': 6, 'U': 3
     };
-    
+
     const sum = name.toUpperCase().split('').reduce((acc, char) => {
         if (vowels.includes(char)) {
             return acc + (letterValues[char] || 0);
         }
         return acc;
     }, 0);
-    
+
     return digitSum(sum);
 }
 
@@ -192,14 +190,14 @@ function calculatePersonality(name) {
         'L': 3, 'M': 4, 'N': 5, 'P': 7, 'Q': 8, 'R': 9, 'S': 1, 'T': 2, 'V': 4,
         'W': 5, 'X': 6, 'Y': 7, 'Z': 8
     };
-    
+
     const sum = name.toUpperCase().split('').reduce((acc, char) => {
         if (!vowels.includes(char) && letterValues[char]) {
             return acc + letterValues[char];
         }
         return acc;
     }, 0);
-    
+
     return digitSum(sum);
 }
 

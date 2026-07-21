@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.6.1. </b> "
 ---
 
-# Clean up Resources
-
 ## Introduction
 
 To avoid unexpected charges on your AWS account, it is very important to delete the resources created in this workshop.
@@ -56,12 +54,6 @@ Check AWS Console to ensure:
 - ✅ S3 buckets emptied and deleted
 - ✅ CloudFront distributions disabled and deleted
 - ✅ No custom IAM roles remaining
-
-## Completion
-
-Congratulations on completing the **Deploy LunaGenZ on AWS Serverless** workshop!
-
----
 
 ## Completion
 

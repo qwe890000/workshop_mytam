@@ -5,8 +5,6 @@ chapter: true
 pre: " <b> 5.5.1. </b> "
 ---
 
-# Deploy Frontend to S3
-
 ## Introduction
 
 This section guides you through deploying the Frontend interface on Amazon S3.
