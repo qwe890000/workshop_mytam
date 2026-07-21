@@ -26,7 +26,7 @@ Trong bài lab này, chúng em đã thực hiện:
 
 #### Sơ đồ kiến trúc
 
-![LunaGenZ Architecture](/images/lunagenz-architecture.svg)
+![LunaGenZ Architecture](images/lunagenz-architecture.svg)
 
 #### Liên kết
 

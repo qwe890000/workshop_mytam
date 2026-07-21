@@ -135,4 +135,4 @@ Buổi meetup đã khép lại nhưng những bài học và cảm hứng sẽ �
 
 ## Hình ảnh minh chứng
 
-![FCAJ Meetup 2026 - Minh chứng](/images/event3-fcaj-meetup-2026.jpg)
+![FCAJ Meetup 2026 - Minh chứng](images/event3-fcaj-meetup-2026.jpg)
