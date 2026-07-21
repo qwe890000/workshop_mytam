@@ -74,3 +74,5 @@ At the end of this workshop, you will have a complete Serverless application run
 ### Links
 
 - **Website:** [https://www.lunagenz.sbs/](https://www.lunagenz.sbs/)
+- **Video Demo:** [https://drive.google.com/drive/folders/1EIiVDEET1jN1fQLz751UtGRnkJPrTmsI?usp=sharing](https://drive.google.com/drive/folders/1EIiVDEET1jN1fQLz751UtGRnkJPrTmsI?usp=sharing)
+- **GitHub:** [https://github.com/qwe890000/workshop_mytam](https://github.com/qwe890000/workshop_mytam)

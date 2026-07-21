@@ -74,3 +74,5 @@ Cuối workshop này, bạn sẽ có một ứng dụng Serverless hoàn chỉnh
 ### Liên kết
 
 - **Website:** [https://www.lunagenz.sbs/](https://www.lunagenz.sbs/)
+- **Video Demo:** [https://drive.google.com/drive/folders/1EIiVDEET1jN1fQLz751UtGRnkJPrTmsI?usp=sharing](https://drive.google.com/drive/folders/1EIiVDEET1jN1fQLz751UtGRnkJPrTmsI?usp=sharing)
+- **GitHub:** [https://github.com/qwe890000/workshop_mytam](https://github.com/qwe890000/workshop_mytam)
