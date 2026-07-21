@@ -24,7 +24,7 @@ Một hàm Serverless chuyên dụng tự động tổng hợp các kết quả 
 
 ## Sơ đồ Kiến trúc
 
-![LunaGenZ Architecture](images/lunagenz-architecture.svg)
+![LunaGenZ Architecture](images/lunagenz-architecture.png)
 
 ## Luồng hoạt động
 
