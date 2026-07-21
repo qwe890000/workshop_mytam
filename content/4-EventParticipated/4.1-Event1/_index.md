@@ -40,7 +40,7 @@ The main objectives of the event include:
 
 ### 1. The AI Paradox and the Explosion of Software Demand
 
-Speaker **Danh Hoang Hieu Nghi** brought an insightful perspective on the paradox of technology becoming cheaper: when a technology becomes more affordable, its demand skyrockets.
+Speaker brought an insightful perspective on the paradox of technology becoming cheaper: when a technology becomes more affordable, its demand skyrockets.
 
 **Real-world example from LED light bulbs:**
 - LED bulbs save 90% electricity compared to incandescent bulbs
@@ -92,7 +92,7 @@ Speaker **Danh Hoang Hieu Nghi** brought an insightful perspective on the parado
 
 ### 4. Core Message for Building Systems
 
-Speaker **Danh Hoang Hieu Nghi** summarized the most important philosophy when developing systems through three criteria:
+summarized the most important philosophy when developing systems through three criteria:
 
 | Criteria | Description |
 |----------|-------------|

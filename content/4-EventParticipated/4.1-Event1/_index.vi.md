@@ -36,7 +36,7 @@ Mục tiêu chính của sự kiện bao gồm:
 
 ### 1. Nghịch lý AI và sự bùng nổ nhu cầu phần mềm
 
-Diễn giả **Danh Hoàng Hiếu Nghị** đã đưa ra góc nhìn sâu sắc về nghịch lý khi một công nghệ trở nên rẻ hơn: nhu cầu sử dụng sẽ tăng đột biến.
+diễn giả đã đưa ra góc nhìn sâu sắc về nghịch lý khi một công nghệ trở nên rẻ hơn: nhu cầu sử dụng sẽ tăng đột biến.
 
 **Ví dụ thực tế từ bóng đèn LED:**
 - Bóng đèn LED tiết kiệm 90% điện năng so với bóng đèn sợi đốt
@@ -88,7 +88,7 @@ Diễn giả **Danh Hoàng Hiếu Nghị** đã đưa ra góc nhìn sâu sắc v
 
 ### 4. Thông điệp cốt lõi khi xây dựng hệ thống
 
-Diễn giả **Danh Hoàng Hiếu Nghị** đúc kết triết lý quan trọng nhất khi phát triển hệ thống qua ba tiêu chí:
+đúc kết triết lý quan trọng nhất khi phát triển hệ thống qua ba tiêu chí:
 
 | Tiêu chí | Mô tả |
 |----------|-------|
