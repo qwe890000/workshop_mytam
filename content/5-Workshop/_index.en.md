@@ -27,7 +27,7 @@ In this lab, we have:
 
 #### Architecture Diagram
 
-![LunaGenZ Architecture](images/lunagenz-architecture.png)
+![LunaGenZ Architecture](images/lunagenz-architecture.svg)
 
 #### Links
 

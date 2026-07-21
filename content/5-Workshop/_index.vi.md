@@ -39,7 +39,7 @@ Cuối workshop này, bạn sẽ có một ứng dụng Serverless hoàn chỉnh
 
 ## Sơ đồ kiến trúc
 
-![LunaGenZ Architecture](images/lunagenz-architecture.png)
+![LunaGenZ Architecture](images/lunagenz-architecture.svg)
 
 ---
 

@@ -39,7 +39,7 @@ At the end of this workshop, you will have a complete Serverless application run
 
 ## Architecture Diagram
 
-![LunaGenZ Architecture](images/lunagenz-architecture.png)
+![LunaGenZ Architecture](images/lunagenz-architecture.svg)
 
 ---
 
