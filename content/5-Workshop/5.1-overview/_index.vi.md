@@ -22,6 +22,10 @@ Logic tính toán thần số học cốt lõi được xử lý bởi các hàm
 ### 3. Tạo báo cáo PDF (AWS Lambda)
 Một hàm Serverless chuyên dụng tự động tổng hợp kết quả tính toán thành báo cáo PDF có thể tải xuống.
 
+## Sơ đồ Kiến trúc
+
+![LunaGenZ Architecture](images/lunagenz-architecture.png)
+
 ## Bạn sẽ xây dựng gì?
 
 Cuối workshop này, bạn sẽ có một ứng dụng Serverless hoàn chỉnh chạy trên AWS, với giao diện Frontend, logic Backend, và khả năng tạo báo cáo PDF tự động. Hãy bắt đầu!
