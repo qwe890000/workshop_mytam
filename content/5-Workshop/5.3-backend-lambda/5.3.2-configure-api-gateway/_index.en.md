@@ -5,9 +5,13 @@ chapter: true
 pre: " <b> 5.3.2. </b> "
 ---
 
+<div style="font-size: 16px; line-height: 1.8;">
+
 ## Introduction
 
 API Gateway is the entry point for the Backend, allowing Frontend to call Lambda functions through HTTP requests. In this section, you will create a REST API with CORS support.
+
+---
 
 ## Step 1: Create REST API
 
@@ -16,15 +20,19 @@ API Gateway is the entry point for the Backend, allowing Frontend to call Lambda
 1. AWS Console → Search for **API Gateway**
 2. Or access: [console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
 
+---
+
 ### Select API Type
 
 1. Click **Create API**
 2. Select **REST API** (not REST API Private or HTTP API)
 
+---
+
 ### Configure New API
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **API type** | REST API |
 | **Protocol** | REST |
 | **Create new API** | New API |
@@ -33,6 +41,8 @@ API Gateway is the entry point for the Backend, allowing Frontend to call Lambda
 | **Endpoint type** | Regional |
 
 > **💡 Regional vs Edge-Optimized:** Regional endpoint is better for Lambda in the same region. Edge-optimized is better for global users but has additional latency.
+
+---
 
 ## Step 2: Create Resource
 
@@ -43,12 +53,14 @@ API Gateway is the entry point for the Backend, allowing Frontend to call Lambda
 2. Configure:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Resource name** | `calculate` |
 | **Resource path** | `/calculate` |
 | **Enable API Gateway CORS** | ✅ Yes |
 
 3. Click **Create resource**
+
+---
 
 ## Step 3: Create POST Method
 
@@ -60,13 +72,15 @@ API Gateway is the entry point for the Backend, allowing Frontend to call Lambda
 3. Configure:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **HTTP method** | POST |
 | **Integration type** | Lambda function |
 | **Lambda proxy integration** | ✅ Lambda proxy integration |
 | **Lambda function** | `LunaGenZ-Calculation` (select your region) |
 
 4. Click **Create method**
+
+---
 
 ### Enable CORS for Method
 
@@ -75,12 +89,14 @@ API Gateway is the entry point for the Backend, allowing Frontend to call Lambda
 2. Configure:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Access-Control-Allow-Origin** | `*` |
 | **Access-Control-Allow-Headers** | `Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token` |
 | **Access-Control-Allow-Methods** | `POST,OPTIONS` |
 
 3. Click **Enable CORS and replace existing CORS headers**
+
+---
 
 ## Step 4: Add GET Method (Optional)
 
@@ -93,6 +109,8 @@ For quick testing, add GET method:
 
 > **⚠️ Note:** GET has no body, so Lambda code needs to be adjusted to receive query parameters.
 
+---
+
 ## Step 5: Deploy API
 
 ### Create Stage
@@ -102,13 +120,15 @@ For quick testing, add GET method:
 2. Configure deployment:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Deployment stage** | New stage |
 | **Stage name** | `prod` |
 | **Stage description** | `Production stage` |
 | **Deployment description** | `Initial deployment` |
 
 3. Click **Deploy**
+
+---
 
 ### Get Invoke URL
 
@@ -119,6 +139,8 @@ Invoke URL: https://abc123xyz.execute-api.ap-southeast-1.amazonaws.com/prod
 ```
 
 > **📝 Remember this URL** - You will use it in Frontend code.
+
+---
 
 ## Step 6: Update Frontend
 
@@ -165,6 +187,8 @@ async function calculateNumerology(name, birthdate) {
 }
 ```
 
+---
+
 ## Step 7: Test API
 
 ### Test using curl
@@ -175,6 +199,8 @@ curl -X POST \
   -H 'Content-Type: application/json' \
   -d '{"name": "John Smith", "birthdate": "1990-05-15"}'
 ```
+
+---
 
 ### Test using Postman
 
@@ -190,6 +216,8 @@ curl -X POST \
 }
 ```
 
+---
+
 ### Test using Browser
 
 Open browser and access:
@@ -197,6 +225,8 @@ Open browser and access:
 ```
 https://abc123xyz.execute-api.ap-southeast-1.amazonaws.com/prod/calculate?name=John%20Smith&birthdate=1990-05-15
 ```
+
+---
 
 ## Step 8: Configure Throttling (Optional)
 
@@ -206,10 +236,12 @@ https://abc123xyz.execute-api.ap-southeast-1.amazonaws.com/prod/calculate?name=J
 2. Add throttling:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Enable throttling** | ✅ |
 | **Rate** | 100 requests per second |
 | **Burst** | 50 requests |
+
+---
 
 ## Step 9: Configure Usage Plans (Optional)
 
@@ -219,12 +251,14 @@ To limit and monitor API usage:
 2. Configure:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Plan name** | `Basic` |
 | **Rate** | 1000 requests/day |
 | **Quota** | 10000 requests/month |
 
 3. Attach API and Stage
+
+---
 
 ## Final API Structure
 
@@ -234,6 +268,8 @@ LunaGenZ-API
     ├── POST → LunaGenZ-Calculation
     └── OPTIONS → CORS Preflight
 ```
+
+---
 
 ## Summary
 
@@ -245,6 +281,10 @@ After this step, you have:
 - ✅ API deployed to `prod` stage
 - ✅ Invoke URL for use in Frontend
 
+---
+
 ## Next Steps
 
 Next, proceed to **Create Lambda PDF Generator** to generate PDF reports from calculation results.
+
+</div>

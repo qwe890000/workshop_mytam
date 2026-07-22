@@ -5,9 +5,13 @@ chapter: true
 pre: " <b> 5.3.1. </b> "
 ---
 
+<div style="font-size: 16px; line-height: 1.8;">
+
 ## Giới thiệu
 
 Lambda Calculation là hàm xử lý logic tính toán thần số học. Đây là trái tim của ứng dụng LunaGenZ, nơi thực hiện các phép tính phức tạp để đưa ra các con số ý nghĩa.
+
+---
 
 ## Bước 1: Tạo IAM Role cho Lambda
 
@@ -18,13 +22,17 @@ Trước khi tạo Lambda function, bạn cần tạo IAM Role để cấp quy�
 1. AWS Console → Tìm **IAM**
 2. Chọn **Roles** → **Create role**
 
+---
+
 ### Cấu hình Role
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Trusted entity type** | AWS service |
 | **Use case** | Lambda |
 | **Permissions policies** | `AWSLambdaBasicExecutionRole` |
+
+---
 
 ### Thêm Inline Policy (nếu cần truy cập S3)
 
@@ -44,6 +52,8 @@ Trước khi tạo Lambda function, bạn cần tạo IAM Role để cấp quy�
 }
 ```
 
+---
+
 ## Bước 2: Tạo Lambda Function
 
 ### Truy cập Lambda Console
@@ -51,23 +61,29 @@ Trước khi tạo Lambda function, bạn cần tạo IAM Role để cấp quy�
 1. AWS Console → Tìm **Lambda**
 2. Nhấn **Create function**
 
+---
+
 ### Cấu hình Function cơ bản
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Function name** | `LunaGenZ-Calculation` |
 | **Runtime** | Node.js 20.x |
 | **Architecture** | x86_64 |
 | **Permissions** | Use existing role → chọn role đã tạo |
 
+---
+
 ### Advanced Settings (Optional)
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Description** | Calculate numerology numbers |
 | **Memory** | 128 MB |
 | **Timeout** | 10 seconds |
 | **VPC** | No VPC (để public access) |
+
+---
 
 ## Bước 3: Viết Lambda Code
 
@@ -144,14 +160,12 @@ function digitSum(num, reduce = true) {
 
 // Life Path Number from birthdate (YYYY-MM-DD)
 function calculateLifePath(birthdate) {
-    // Remove non-digits
     const digits = birthdate.replace(/\D/g, '');
     return digitSum(digits);
 }
 
 // Expression Number from full name
 function calculateExpression(name) {
-    // Map letters to numbers (Chaldean or Pythagorean)
     const letterValues = {
         'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8, 'I': 9,
         'J': 1, 'K': 2, 'L': 3, 'M': 4, 'N': 5, 'O': 6, 'P': 7, 'Q': 8, 'R': 9,
@@ -225,9 +239,13 @@ function getInterpretation(num) {
 }
 ```
 
+---
+
 ### Lưu và Deploy
 
 1. Nhấn **Deploy** để cập nhật code
+
+---
 
 ## Bước 4: Test Lambda Function
 
@@ -239,7 +257,7 @@ function getInterpretation(num) {
 3. Cấu hình test event:
 
 | Setting | Value |
-|---------|-------|
+|:--------|:------|
 | **Event name** | `test-calculation` |
 | **Event JSON** | Xem bên dưới |
 
@@ -250,6 +268,8 @@ function getInterpretation(num) {
 ```
 
 4. Nhấn **Save** → **Test**
+
+---
 
 ### Xem Kết quả
 
@@ -262,6 +282,8 @@ Nếu thành công, bạn sẽ thấy:
 }
 ```
 
+---
+
 ## Bước 5: Cấu hình Environment Variables (Optional)
 
 1. Tab **Configuration** → **Environment variables**
@@ -269,9 +291,11 @@ Nếu thành công, bạn sẽ thấy:
 3. Thêm variables:
 
 | Key | Value | Giải thích |
-|-----|-------|------------|
+|:----|:------|:------------|
 | `LOG_LEVEL` | `info` | Logging level |
 | `MAX_NAME_LENGTH` | `100` | Giới hạn độ dài tên |
+
+---
 
 ## Bước 6: Monitoring
 
@@ -281,12 +305,16 @@ Nếu thành công, bạn sẽ thấy:
 
 2. CloudWatch Console sẽ mở với các log streams
 
+---
+
 ### Cấu hình Alerts
 
 1. **CloudWatch** → **Alarms** → **Create alarm**
 2. Chọn metric: `Errors` cho Lambda function
 3. Threshold: > 0
 4. SNS topic để nhận thông báo
+
+---
 
 ## Tóm tắt
 
@@ -298,6 +326,10 @@ Sau bước này, bạn đã có:
 - ✅ Test event và kết quả thành công
 - ✅ Monitoring configuration
 
+---
+
 ## Các bước tiếp theo
 
 Tiếp theo, chuyển sang phần **API Gateway** để tạo REST API endpoint để gọi Lambda.
+
+</div>

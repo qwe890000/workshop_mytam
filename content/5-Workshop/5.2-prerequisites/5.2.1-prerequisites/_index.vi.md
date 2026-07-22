@@ -5,9 +5,13 @@ chapter: true
 pre: " <b> 5.2. </b> "
 ---
 
+<div style="font-size: 16px; line-height: 1.8;">
+
 ## Các yêu cầu trước khi bắt đầu
 
 Để hoàn thành tốt workshop này, vui lòng đảm bảo bạn đã chuẩn bị sẵn các công cụ và tài khoản cần thiết.
+
+---
 
 ## 1. Tài khoản AWS
 
@@ -18,13 +22,18 @@ pre: " <b> 5.2. </b> "
 3. Điền thông tin email, mật khẩu, và tên tài khoản
 4. Hoàn tất xác minh email và thông tin thẻ tín dụng
 
+---
+
 ### Lưu ý về chi phí
 
 > **⚠️ Quan trọng:** Workshop này sử dụng các dịch vụ AWS có thể phát sinh phí. Tuy nhiên, AWS cung cấp **Free Tier** với:
+>
 > - **Lambda:** 1 triệu request/tháng miễn phí
 > - **S3:** 5GB storage miễn phí
 > - **CloudFront:** 1TB transfer miễn phí
 > - **API Gateway:** 1 triệu call API/tháng miễn phí
+
+---
 
 ## 2. AWS CLI v2
 
@@ -48,6 +57,8 @@ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
 ```
 
+---
+
 ### Cấu hình AWS Credentials
 
 1. Đăng nhập AWS Console
@@ -66,6 +77,8 @@ aws configure
 # Default output format [None]: json
 ```
 
+---
+
 ## 3. Git
 
 Git dùng để clone source code và quản lý version.
@@ -83,6 +96,8 @@ brew install git
 git --version
 ```
 
+---
+
 ## 4. VS Code
 
 VS Code là trình soạn thảo code được khuyến nghị.
@@ -94,6 +109,8 @@ VS Code là trình soạn thảo code được khuyến nghị.
    - **AWS Toolkit** - Tích hợp với AWS services
    - **Prettier** - Format code tự động
    - **Live Server** - Preview HTML/CSS
+
+---
 
 ## 5. Source Code
 
@@ -125,6 +142,8 @@ lunagenz/
 └── scripts/           # Deployment scripts
 ```
 
+---
+
 ## Kiểm tra môi trường
 
 Chạy script kiểm tra để đảm bảo mọi thứ hoạt động:
@@ -147,3 +166,5 @@ Nếu mọi thứ hoạt động tốt, bạn sẽ thấy thông tin về AWS ac
 ## Các bước tiếp theo
 
 Chuyển sang phần **S3 Hosting** để bắt đầu triển khai Frontend.
+
+</div>

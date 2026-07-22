@@ -5,9 +5,13 @@ chapter: true
 pre: " <b> 5.2. </b> "
 ---
 
+<div style="font-size: 16px; line-height: 1.8;">
+
 ## Requirements Before Starting
 
 To complete this workshop successfully, please ensure you have prepared the necessary tools and accounts.
+
+---
 
 ## 1. AWS Account
 
@@ -18,13 +22,18 @@ To complete this workshop successfully, please ensure you have prepared the nece
 3. Fill in email, password, and account name
 4. Complete email verification and credit card information
 
+---
+
 ### Cost Notes
 
 > **⚠️ Important:** This workshop uses AWS services that may incur charges. However, AWS provides **Free Tier** with:
+>
 > - **Lambda:** 1 million requests/month free
 > - **S3:** 5GB storage free
 > - **CloudFront:** 1TB transfer free
 > - **API Gateway:** 1 million API calls/month free
+
+---
 
 ## 2. AWS CLI v2
 
@@ -48,6 +57,8 @@ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
 ```
 
+---
+
 ### Configure AWS Credentials
 
 1. Log in to AWS Console
@@ -66,6 +77,8 @@ aws configure
 # Default output format [None]: json
 ```
 
+---
+
 ## 3. Git
 
 Git is used to clone source code and manage versions.
@@ -83,6 +96,8 @@ brew install git
 git --version
 ```
 
+---
+
 ## 4. VS Code
 
 VS Code is the recommended code editor.
@@ -94,6 +109,8 @@ VS Code is the recommended code editor.
    - **AWS Toolkit** - Integration with AWS services
    - **Prettier** - Automatic code formatting
    - **Live Server** - Preview HTML/CSS
+
+---
 
 ## 5. Source Code
 
@@ -125,6 +142,8 @@ lunagenz/
 └── scripts/           # Deployment scripts
 ```
 
+---
+
 ## Environment Check
 
 Run the check script to ensure everything works:
@@ -147,3 +166,5 @@ If everything works, you will see information about your current AWS account.
 ## Next Steps
 
 Proceed to **S3 Hosting** section to start deploying the Frontend.
+
+</div>
