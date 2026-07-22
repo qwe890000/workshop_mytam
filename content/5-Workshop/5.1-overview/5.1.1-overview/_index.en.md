@@ -24,7 +24,7 @@ A dedicated Serverless function that automatically compiles calculation results 
 
 ## Architecture Diagram
 
-![LunaGenZ Architecture](images/architecture-diagram.png)
+![LunaGenZ Architecture](/images/architecture-diagram.png)
 
 ## Workflow
 
