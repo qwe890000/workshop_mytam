@@ -34,7 +34,7 @@ A dedicated Serverless function that automatically compiles calculation results 
 ## Architecture Diagram
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="images/architecture-diagram.png" alt="LunaGenZ Architecture" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="/workshop_mytam/5-Workshop/images/architecture-diagram.png" alt="LunaGenZ Architecture" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
 
 ---
