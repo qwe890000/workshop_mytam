@@ -6,6 +6,8 @@ chapter: false
 pre: " 5. "
 ---
 
+<div style="text-align: left; font-size: 16px; line-height: 1.8;">
+
 # Workshop: Building a Serverless Application with AWS
 
 ---
@@ -15,6 +17,7 @@ pre: " 5. "
 **LunaGenZ** is a Numerology project built entirely on AWS Serverless architecture. This workshop will guide you through the entire process of deploying Backend logic, automating PDF report generation, and hosting the Frontend application.
 
 In this lab, we have completed:
+
 - Built and deployed a Serverless Backend using AWS Lambda and API Gateway.
 - Automated the process of generating PDF reports based on Numerology indices.
 - Hosted the Frontend interface with high availability on Amazon S3 and Amazon CloudFront.
@@ -39,14 +42,16 @@ By the end of this workshop, you will have a complete Serverless application run
 
 ## Architecture Diagram
 
-![LunaGenZ Architecture](images/architecture-diagram.png)
+<div style="text-align: center; margin: 20px 0;">
+<img src="images/architecture-diagram.png" alt="LunaGenZ Architecture" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
 
 ---
 
 ## Detailed Architecture
 
 | Component | AWS Services | Description |
-|------------|-------------|-------------|
+|:----------|:------------|:------------|
 | **Frontend** | Amazon S3 + CloudFront | Static user interface, static hosting, global distribution with HTTPS |
 | **Backend API** | Amazon API Gateway + Lambda | Numerology calculation logic processing, REST API endpoint |
 | **PDF Generator** | AWS Lambda | Automatically generate PDF reports from calculation results |
@@ -69,7 +74,7 @@ By the end of this workshop, you will have a complete Serverless application run
 ## Numerology Indices Calculated
 
 | Index | Description |
-|--------|-------------|
+|:------|:------------|
 | **Life Path Number** | Life path - from birthdate |
 | **Expression Number** | Talent expression - from full name |
 | **Soul Urge Number** | Inner soul - from vowels in name |
@@ -138,7 +143,7 @@ Overview → Prerequisites → Create Lambda (Backend) → Configure API Gateway
 ## Technologies Used
 
 | Technology | Purpose |
-|------------|---------|
+|:-----------|:--------|
 | **Node.js 20.x** | Runtime for AWS Lambda |
 | **HTML/CSS/JS** | Static Frontend |
 | **Puppeteer** | Convert HTML to PDF |
@@ -151,3 +156,5 @@ Overview → Prerequisites → Create Lambda (Backend) → Configure API Gateway
 - **Website:** [https://www.lunagenz.sbs/](https://www.lunagenz.sbs/)
 - **Video Demo:** [Watch video](https://drive.google.com/drive/folders/1EIiVDEET1jN1fQLz751UtGRnkJPrTmsI?usp=sharing)
 - **GitHub:** [https://github.com/qwe890000/workshop_mytam](https://github.com/qwe890000/workshop_mytam)
+
+</div>

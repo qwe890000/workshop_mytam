@@ -6,6 +6,8 @@ chapter: false
 pre: " 5. "
 ---
 
+<div style="text-align: left; font-size: 16px; line-height: 1.8;">
+
 # Workshop: Xây dựng Ứng dụng Serverless với AWS
 
 ---
@@ -15,6 +17,7 @@ pre: " 5. "
 **LunaGenZ** là một dự án Thần Số Học được xây dựng hoàn toàn trên kiến trúc AWS Serverless. Workshop này sẽ hướng dẫn toàn bộ quy trình triển khai logic Backend, tự động hóa việc tạo báo cáo PDF nội bộ, và host ứng dụng Frontend.
 
 Trong bài lab này, chúng em đã thực hiện:
+
 - Xây dựng và triển khai Backend Serverless bằng AWS Lambda và API Gateway.
 - Tự động hóa quá trình sinh báo cáo PDF dựa trên các chỉ số Thần Số Học.
 - Host giao diện Frontend đảm bảo tính sẵn sàng cao trên Amazon S3 và Amazon CloudFront.
@@ -39,14 +42,16 @@ Cuối workshop này, bạn sẽ có một ứng dụng Serverless hoàn chỉnh
 
 ## Sơ đồ kiến trúc
 
-![LunaGenZ Architecture](images/architecture-diagram.png)
+<div style="text-align: center; margin: 20px 0;">
+<img src="images/architecture-diagram.png" alt="LunaGenZ Architecture" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
 
 ---
 
 ## Kiến trúc chi tiết
 
 | Thành phần | Dịch vụ AWS | Mô tả |
-|------------|-------------|-------|
+|:-----------|:------------|:-------|
 | **Frontend** | Amazon S3 + CloudFront | Giao diện người dùng tĩnh, lưu trữ tĩnh, phân phối toàn cầu với HTTPS |
 | **Backend API** | Amazon API Gateway + Lambda | Xử lý logic tính toán thần số học, REST API endpoint |
 | **PDF Generator** | AWS Lambda | Tạo báo cáo PDF tự động từ kết quả tính toán |
@@ -69,7 +74,7 @@ Cuối workshop này, bạn sẽ có một ứng dụng Serverless hoàn chỉnh
 ## Các chỉ số Thần Số Học được tính toán
 
 | Chỉ số | Mô tả |
-|--------|-------|
+|:-------|:-------|
 | **Life Path Number** | Con đường cuộc đời - từ ngày sinh |
 | **Expression Number** | Biểu hiện tài năng - từ họ tên đầy đủ |
 | **Soul Urge Number** | Linh hồn bên trong - từ nguyên âm trong tên |
@@ -138,7 +143,7 @@ Tổng quan → Chuẩn bị → Tạo Lambda (Backend) → Cấu hình API Gate
 ## Công nghệ sử dụng
 
 | Công nghệ | Mục đích |
-|-----------|----------|
+|:-----------|:---------|
 | **Node.js 20.x** | Runtime cho AWS Lambda |
 | **HTML/CSS/JS** | Frontend tĩnh |
 | **Puppeteer** | Chuyển HTML sang PDF |
@@ -151,3 +156,5 @@ Tổng quan → Chuẩn bị → Tạo Lambda (Backend) → Cấu hình API Gate
 - **Website:** [https://www.lunagenz.sbs/](https://www.lunagenz.sbs/)
 - **Video Demo:** [Xem video](https://drive.google.com/drive/folders/1EIiVDEET1jN1fQLz751UtGRnkJPrTmsI?usp=sharing)
 - **GitHub:** [https://github.com/qwe890000/workshop_mytam](https://github.com/qwe890000/workshop_mytam)
+
+</div>
