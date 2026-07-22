@@ -26,7 +26,7 @@ Một hàm Serverless chuyên dụng tự động tổng hợp kết quả tính
 
 ## Sơ đồ Kiến trúc
 
-![LunaGenZ Architecture](/images/architecture-diagram.png)
+![LunaGenZ Architecture](images/architecture-diagram.png)
 
 ## Bạn sẽ xây dựng gì?
 
