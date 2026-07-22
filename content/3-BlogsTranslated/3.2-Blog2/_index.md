@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# Blog 2
-
 ## Cara Pioneers Domain-Specific AI for Enterprise Insurance Brokerages with AWS
 
 Insurance is an $8 trillion global industry, but it is currently facing heavy pressure from outdated manual processes and increasingly severe talent shortages. To address this challenge, Cara pioneered the development of an AI-native solution on the AWS platform to automate complex back-office processes specifically for enterprise insurance brokerage companies.

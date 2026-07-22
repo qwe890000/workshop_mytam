@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-# Blog 3
-
 ## Building LunaGENZ – Personalized Numerology System on Serverless AWS Architecture Combined with GenAI
 
 Hello everyone, after some time of self-learning and grinding, our team has started the final project: LunaGENZ – a system that uses AI to interpret personalized numerology.
