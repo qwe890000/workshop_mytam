@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# Blog 1
-
 ## Automating Oracle Database@AWS Deployment with Terraform
 
 Deploying Oracle Database systems on cloud platforms is always a challenge that requires balancing performance, scalability, and consistency in infrastructure management. With Oracle Database@AWS (ODB@AWS), Oracle has brought the Exadata platform – hardware system optimized specifically for Oracle Database – directly into AWS data centers, allowing businesses to leverage Oracle's high performance while taking advantage of AWS's rich service ecosystem.
