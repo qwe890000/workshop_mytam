@@ -131,9 +131,3 @@ Sự kiện cũng củng cố tầm quan trọng của **học tập liên tục
 **FCAJ Community Day** thực sự là một sự kiện ý nghĩa, cung cấp kiến thức thực tiễn về xu hướng AI, động lực thị trường việc làm và các phương pháp phát triển hiện đại. Em xin gửi lời cảm ơn chân thành đến **Ban Tổ chức** và **toàn thể diễn giả** đã chia sẻ những góc nhìn giá trị.
 
 Những bài học tiếp thu được sẽ giúp định hướng hành trình của em trong ngành công nghệ.
-
----
-
-## Hình ảnh minh chứng
-
-![FCAJ Community Day - Minh chứng](/workshop_mytam/images/event1-community-day.jpg)
