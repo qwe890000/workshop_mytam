@@ -5,6 +5,8 @@ chapter: true
 pre: " <b> 5.1. </b> "
 ---
 
+<div style="text-align: left;">
+
 ## About LunaGenZ
 
 LunaGenZ is an innovative Numerology application designed to calculate and generate detailed personal numerology reports. To ensure high availability, scalability, and cost optimization, the entire application is built on **AWS Serverless architecture**.
@@ -24,7 +26,7 @@ A dedicated Serverless function that automatically compiles calculation results 
 
 ## Architecture Diagram
 
-![LunaGenZ Architecture](images/architecture-diagram.png)
+![LunaGenZ Architecture](/images/architecture-diagram.png)
 
 ## What Will You Build?
 
@@ -35,3 +37,5 @@ By the end of this workshop, you will have a complete Serverless application run
 ## Next Steps
 
 Proceed to **Prerequisites** section to begin.
+
+</div>

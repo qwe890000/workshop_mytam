@@ -5,6 +5,8 @@ chapter: true
 pre: " <b> 5.1. </b> "
 ---
 
+<div style="text-align: left;">
+
 ## Về LunaGenZ
 
 LunaGenZ là ứng dụng Thần Số Học sáng tạo, được thiết kế để tính toán và tạo báo cáo thần số học chi tiết cho cá nhân. Để đảm bảo tính khả dụng cao, khả năng mở rộng và tối ưu chi phí, toàn bộ ứng dụng được xây dựng trên **kiến trúc Serverless của AWS**.
@@ -24,7 +26,7 @@ Một hàm Serverless chuyên dụng tự động tổng hợp kết quả tính
 
 ## Sơ đồ Kiến trúc
 
-![LunaGenZ Architecture](images/architecture-diagram.png)
+![LunaGenZ Architecture](/images/architecture-diagram.png)
 
 ## Bạn sẽ xây dựng gì?
 
@@ -35,3 +37,5 @@ Cuối workshop này, bạn sẽ có một ứng dụng Serverless hoàn chỉnh
 ## Bước tiếp theo
 
 Chuyển sang **Điều kiện tiên quyết** để đảm bảo đã chuẩn bị đầy đủ các công cụ cần thiết.
+
+</div>
