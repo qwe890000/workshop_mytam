@@ -135,9 +135,3 @@ The event also reinforced the importance of **continuous learning** and staying 
 **FCAJ Community Day** was truly a meaningful event that provided practical knowledge about AI trends, job market dynamics, and modern development practices. I would like to thank the **Organizing Committee** and **all speakers** for sharing valuable insights.
 
 The lessons learned will help guide my journey in the technology industry.
-
----
-
-## Evidence Photos
-
-![FCAJ Community Day - Evidence](/workshop_mytam/images/event1-community-day.jpg)
